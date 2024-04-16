@@ -10,6 +10,7 @@
 fn main() {
     let vec0 = vec![22, 44, 66];
 
+    // 这个地方处理冲突时候这两天冲突了- 最后都保留了
     let mut vec1 = fill_vec(vec0.clone());
     let vec1 = fill_vec(vec0);
 
