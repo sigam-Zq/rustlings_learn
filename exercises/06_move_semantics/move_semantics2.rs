@@ -12,7 +12,7 @@ fn main() {
 
     // 这个地方处理冲突时候这两天冲突了- 最后都保留了
     let mut vec1 = fill_vec(vec0.clone());
-    let vec1 = fill_vec(vec0);
+    let vec1 = fill_vec(vec0.clone());
 
     assert_eq!(vec0, vec![22, 44, 66]);
     assert_eq!(vec1, vec![22, 44, 66, 88]);
